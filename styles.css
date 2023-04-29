@@ -1,0 +1,48 @@
+body {
+    background-image: url("assets/IMG_1014.jpg");
+    background-repeat: space repeat;
+    background-size: 150px;
+    background-color: rgba(255, 0, 0, 0.5);
+    
+  }
+
+  #head{
+    background-image: url("assets/heart-background.webp");
+    height: 7rem;
+    width: 100vw;
+    margin-top: -25px;
+    margin-left: -8px;
+
+  }
+
+  #haj{
+    font-family: cursive;
+    color: beige;
+    text-align: center;
+    padding: 3%;
+    -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: black;
+  }
+
+  .vid-player{
+    margin: 7rem 40%;
+  }
+
+  #vid{
+    width: auto;
+    height: 400px;
+    /* aspect-ratio: 16/9; */
+    margin-right: -5rem;
+  }
+
+  @media screen and (max-width: 600px) {
+    #vid{
+        width: auto;
+        
+      }
+      .vid-player{
+        margin: 7rem 3rem;
+        padding: auto;
+        
+      }
+  }
