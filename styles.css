@@ -29,9 +29,9 @@ body {
   }
 
   #vid{
-    width: auto;
-    height: 400px;
-    /* aspect-ratio: 16/9; */
+    /* width: auto; */
+    /* height: 400px; */
+    aspect-ratio: 16/9;
     margin-right: -5rem;
   }
 
