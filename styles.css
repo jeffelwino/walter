@@ -54,7 +54,7 @@ body {
     #vid{
         width: auto;
         height: 400px;
-        margin-right: 10%;
+        margin-right: -10%;
         
       }
       .vid-player{
