@@ -45,3 +45,22 @@ body {
         
       }
   }
+  @media screen and (max-width: 400px) {
+      #head{
+        margin-left: -11px;
+        width: max-content;
+
+      }
+    #vid{
+        width: auto;
+        height: 400px;
+        margin-left: 20%;
+        
+      }
+      .vid-player{
+        margin: 7rem -3rem;
+        padding: auto;
+        width: fit-content;
+        
+      }
+  }
